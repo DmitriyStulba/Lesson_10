@@ -1,0 +1,232 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+.wrapper {
+	background-color: #F5F5F5;
+}
+.header {
+	background-color: #F5F5F5;
+	text-align: center;
+	font-size: 50px;
+	margin: 20px auto 50px auto; 
+}
+.main {
+	background: url("../img/mainpage/background/Blob2.png") 100% 0% no-repeat;
+	max-width: 100%;
+	margin: 0px auto;
+}
+
+
+ /*  */
+
+.our-promise {
+	font-size: 0;
+}
+
+.our-promise__title {
+	color: #5D62B5;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 700;
+	align-items: center;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px auto 33px auto;
+}
+.our-promise__title::before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 16px;
+	padding: 16px;
+	background: url("../img/icons/Overline_Mark.svg") 0 0 no-repeat;
+	vertical-align: top;
+	margin-right: 16px;
+	padding: 10px;
+}
+.our-promise__subtitle {
+	color: #000;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+	margin: 0px auto 68px auto;	
+}
+.our-promise__items {
+	display: inline-block;
+	vertical-align: top;
+	width: 324px;
+	margin-bottom: 150px;	
+} 
+ .our-promise__item {
+	display: inline-block;
+	margin: 0px auto;
+} 
+.our-promise__items:last-child {
+	margin-right: 0px;
+}
+.our-promise__image {
+	display: inline-block;
+	vertical-align: top;
+	width: 63px;
+	margin-right: 23px;
+}
+.our-promise__body {
+	display: inline-block;
+	width: 235px;
+	vertical-align: top;
+}
+.our-promise__title-promise{
+	color: #F2726F;
+	font-size: 19px;
+	line-height: 26px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.our-promise__text-promise {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+/* собака */
+/* БЭМ блок */
+.our-impact {
+	background: #29C3BE  url("../img/mainpage/background/Blob1.png") 65% 0 no-repeat;
+}
+/* Бэм элементы. Вроде ничего не напутал  */
+.our-impact__content {
+	max-width: 1020px;
+	margin: 0px auto;
+}
+.our-impact__text {
+	display: inline-block;
+	margin-top: 112px;
+	margin-right: 105px;
+	max-width: 411px;
+}
+.our-impact__title {
+	display: inline-block;
+	color: #FFF;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px auto 33px auto;
+	align-items: center;
+}
+.our-impact__title::before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 16px;
+	padding: 5px;
+	background: url("../img/icons/Overline_Mark.svg") 0 0 no-repeat;
+	vertical-align: top;
+	margin-right: 16px;
+	padding: 10px;
+}
+.our-impact__subtitle {
+	display: inline-block;
+	color: #FFF;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	margin-bottom: 79px;
+}
+.our-impact__picture {
+	display: inline-block;
+	margin: -80px 0px 85px auto;
+	max-width: 100%;
+	border-radius: 40px;
+	vertical-align: top;
+	overflow: hidden;
+}
+.our-impact__rows {
+	display: inline-block;
+	padding-bottom: 212px;
+}
+.our-impact__row {
+	font-size: 0px;
+	display: inline-block;
+	max-width: 237px;
+	vertical-align: top;
+}
+.row-our-impact__image {
+	display: inline-block;
+	margin: 0px 11px 0px 0px;	
+}
+.row-our-impact__text {
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+	vertical-align: top;
+}
+.row-our-impact__title {
+	color: #FFF;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+}
+.row-our-impact__subtitle {
+	color: #5D62B5;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
